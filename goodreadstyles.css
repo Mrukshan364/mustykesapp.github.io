@@ -45,23 +45,21 @@
 .gr_reviews_showing {
     display: none !important;
 }
-::-webkit-scrollbar-track
-{
-	border: 5px solid white;
-	// border color does not support transparent on scrollbar
-	// border-color: transparent;
-	background-color: #b2bec3;
+
+::-webkit-scrollbar-track {
+    border: 2px solid white;
+    // border color does not support transparent on scrollbar
+    // border-color: transparent;
+    background-color: #b2bec3;
+    border-radius: 10px;
 }
 
-::-webkit-scrollbar
-{
-	width: 15px;
-	background-color: #dfe6e9;
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #dfe6e9;
 }
 
-::-webkit-scrollbar-thumb
-{
-	background-color: #74b9ff;
-	border-radius: 10px;
+::-webkit-scrollbar-thumb {
+    background-color: #74b9ff;
+    border-radius: 10px;
 }
-
