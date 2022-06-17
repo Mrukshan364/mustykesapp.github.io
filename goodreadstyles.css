@@ -22,3 +22,6 @@ color: #FFCC00;
 font-size: 15px;
     text-align: center;
 }
+.gr_reviews_showing {
+display: none !important;
+}
