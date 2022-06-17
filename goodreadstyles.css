@@ -4,4 +4,21 @@ font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.42px;
   color: #63666A;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E3E4E6;
+    padding-bottom: 20px;
+}
+
+.gr_review_container a {
+	color: #373A36;
+	font-weight: 600;
+}
+
+.gr_rating {
+color: #FFCC00;
+}
+
+.gr_pagination {
+font-size: 15px;
+    text-align: center;
 }
