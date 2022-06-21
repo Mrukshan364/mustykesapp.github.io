@@ -1,12 +1,8 @@
 .gr_review_container {
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 400;
-    letter-spacing: 0.42px;
     color: #63666A;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #E3E4E6;
-    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #CACCCF;
+    padding-bottom: 25px;
 }
 
 .gr_review_container a {
@@ -16,6 +12,7 @@
 
 .gr_rating {
     color: #FFCC00;
+    font-size: 20px;
 }
 
 .gr_pagination {
@@ -66,4 +63,36 @@
 
 .gr_reviews_container {
     padding-right: 10px;
+}
+
+.gr_review_by {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #979899;
+
+    a {
+        letter-spacing: 0.3px;
+        color: #47494D;
+        font-weight: 400;
+    }
+}
+
+.gr_review_date {
+    letter-spacing: 0.3px;
+    color: #979899;
+    font-size: 12px;
+}
+
+.gr_review_text {
+    margin-top: 15px;
+    letter-spacing: 0.42px;
+    color: #63666A;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.gr_more_link {
+    letter-spacing: 0.3px;
+    color: #333333;
+    font-weight: 500;
 }
