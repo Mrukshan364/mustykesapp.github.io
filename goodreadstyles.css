@@ -21,9 +21,9 @@
 }
 
 .gr_pagination a {
-    color: #373A36;
-    font-weight: 600;
-    padding: 0 5px;
+    letter-spacing: 0.3px;
+    color: #333333;
+    padding: 0 15px 0 0;
 }
 
 .gr_pagination a:hover {
@@ -36,7 +36,8 @@
 }
 
 .gr_pagination em {
-    padding: 0 5px;
+    padding-right: 15px;
+    font-style: normal;
 }
 
 .gr_reviews_showing {
@@ -72,10 +73,10 @@
 }
 
 .gr_review_by a {
-        letter-spacing: 0.3px;
-        color: #47494D;
-        font-weight: 400;
-    }
+    letter-spacing: 0.3px;
+    color: #47494D;
+    font-weight: 400;
+}
 
 .gr_review_date {
     letter-spacing: 0.3px;
@@ -89,6 +90,10 @@
     color: #63666A;
     font-size: 15px;
     line-height: 22px;
+}
+
+.gr_review_text br {
+    display: none;
 }
 
 .gr_more_link {
