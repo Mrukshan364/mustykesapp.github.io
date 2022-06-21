@@ -69,13 +69,13 @@
     font-size: 12px;
     letter-spacing: 0.3px;
     color: #979899;
+}
 
-    a {
+.gr_review_by a {
         letter-spacing: 0.3px;
         color: #47494D;
         font-weight: 400;
     }
-}
 
 .gr_review_date {
     letter-spacing: 0.3px;
